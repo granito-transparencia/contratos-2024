@@ -1,0 +1,182 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: dodgerblue;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+main {
+
+    flex: 1;
+    /* faz o conteúdo ocupar o espaço entre o header e o footer */
+    width: 95%;
+    margin: 120px auto 0 auto;
+    padding: 20px;
+}
+
+header p {
+    color: white;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+
+}
+
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+
+div {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+div img {
+    margin-top: 19px;
+
+}
+
+.linhas {
+    background-color: #F2F2F2;
+}
+
+.titulos-colunas {
+
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: blueviolet;
+}
+
+.rotas {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#bt-voltar {
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px;
+    border: 1px solid 663300;
+    border-radius: 6px;
+    width: 70px;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+div a:hover #bt-voltar {
+    background-color: rgb(40, 118, 182);
+
+
+}
+
+.imagem {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+
+}
+
+body {
+    overflow-x: hidden;
+    height: 450px;
+    width: 100.4%;
+}
+
+#img-logo:hover {
+    transform: scale(1.02);
+}
+
+.coluna-objeto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 16px;
+    width: 40%;
+    padding: 4px;
+}
+
+th {
+    padding: 4px;
+    font-size: 17px;
+}
+
+td a:hover {
+
+    transform: scale(1.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
